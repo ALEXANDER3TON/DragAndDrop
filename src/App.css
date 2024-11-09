@@ -1,0 +1,46 @@
+.drag-and-drop-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+.blank {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px dashed black;
+  margin: 5px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.drag-words {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.drag-word {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  cursor: grab;
+}
+
+.drag-word.red {
+  color: red;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
