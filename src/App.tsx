@@ -1,6 +1,5 @@
-import { div } from "framer-motion/client";
+
 import "./App.css";
-import { question } from "./constant/data";
 import { DragEvent } from "react";
 
 import useDragAndDropQuestion from "./Hook/useDragAndDropQuestion";
